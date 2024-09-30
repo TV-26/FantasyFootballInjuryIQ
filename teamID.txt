@@ -1,0 +1,32 @@
+Team: Arizona Cardinals, ID: 22
+Team: Atlanta Falcons, ID: 1
+Team: Baltimore Ravens, ID: 33
+Team: Buffalo Bills, ID: 2
+Team: Carolina Panthers, ID: 29
+Team: Chicago Bears, ID: 3
+Team: Cincinnati Bengals, ID: 4
+Team: Cleveland Browns, ID: 5
+Team: Dallas Cowboys, ID: 6
+Team: Denver Broncos, ID: 7
+Team: Detroit Lions, ID: 8
+Team: Green Bay Packers, ID: 9
+Team: Houston Texans, ID: 34
+Team: Indianapolis Colts, ID: 11
+Team: Jacksonville Jaguars, ID: 30
+Team: Kansas City Chiefs, ID: 12
+Team: Las Vegas Raiders, ID: 13
+Team: Los Angeles Chargers, ID: 24
+Team: Los Angeles Rams, ID: 14
+Team: Miami Dolphins, ID: 15
+Team: Minnesota Vikings, ID: 16
+Team: New England Patriots, ID: 17
+Team: New Orleans Saints, ID: 18
+Team: New York Giants, ID: 19
+Team: New York Jets, ID: 20
+Team: Philadelphia Eagles, ID: 21
+Team: Pittsburgh Steelers, ID: 23
+Team: San Francisco 49ers, ID: 25
+Team: Seattle Seahawks, ID: 26
+Team: Tampa Bay Buccaneers, ID: 27
+Team: Tennessee Titans, ID: 10
+Team: Washington Commanders, ID: 28
