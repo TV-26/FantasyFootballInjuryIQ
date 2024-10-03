@@ -4,6 +4,9 @@ class InjuryReport:
         self.injury = injury
         self.league = league
 
+    def to_dict(self):
+        return self.__dict__
+
     def display_report(self):
         return f"Injury: {self.injury}, League: {self.league}"
 
@@ -27,6 +30,10 @@ class GameInjuryReport(InjuryReport):
         self.practice_status = practice_status
         self.injured_in_game = injured_in_game
 
+    def to_dict(self):
+        ir_dict = super().to_dict()
+        gir_dict = ir_dict | self.__dict__
+        return gir_dict
 
     def display_report(self):
         report = super().display_report()
@@ -41,6 +48,11 @@ class DetailedInjuryReport(InjuryReport):
         super().__init__(injury, league)
         self.details = details
         self.date = date
+    
+    def to_dict(self):
+        ir_dict = super().to_dict()
+        dir_dict = ir_dict | self.__dict__
+        return dir_dict
 
     def display_report(self):
         report = super().display_report()

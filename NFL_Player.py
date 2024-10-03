@@ -1,4 +1,4 @@
-from Injury import InjuryReport
+from Injury import *
 class Player:
     def __init__(self, first_name: str, last_name: str, position: str):
         """
@@ -27,3 +27,11 @@ class Player:
         List all injuries for the player.
         """
         return [str(injury) for injury in self.injuries]
+    
+    def to_dict(self):
+        """
+        List all injuries for the player.
+        """
+        # player_list = {first_name: self.first_name, self.last_name, self.position}
+        # return [player_list + injury.injury_to_list() for injury in self.injuries]
+        return [self.__dict__ | injury.to_dict() for injury in self.injuries]
